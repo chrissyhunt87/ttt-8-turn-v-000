@@ -22,4 +22,9 @@ def position_taken?(board, index)
 end
 
 def vaild_move?(board, index)
+  if index >= 0 && index <= 8 && position_taken? == false
+    return true
+  else
+    return false
+  end
 end
