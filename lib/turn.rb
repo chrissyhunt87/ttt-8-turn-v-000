@@ -11,6 +11,8 @@ def input_to_index(input)
   return index
 end
 
+def position_taken?(board, index)
+end
+
 def vaild_move?(board, index)
-  
 end
